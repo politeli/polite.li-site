@@ -1,0 +1,28 @@
+<footer class="site-footer">
+
+  <div class="wrapper">
+
+    <!--<h2 class="footer-heading">{{ site.title }}</h2>-->
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+           {% if site.github_username %}
+          <li>
+            {% include icon-github.html username=site.github_username %}
+          </li>
+          {% endif %}
+        </ul>
+      </div>
+
+      <div class="footer-col footer-col-2">
+      </div>
+
+      <div class="footer-col footer-col-3" align="right">
+        <p>Powered by <a href="https://github.com/jekyll/jekyll">Jekyll.</a></p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
